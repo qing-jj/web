@@ -1,0 +1,267 @@
+        .banner{
+            height: 360px;
+            background: url(../img/lytc/head3.png)no-repeat center center;
+        }
+        /*middle*/
+        
+        .middle{
+            padding: 40px 0;
+            height: 1400px;
+            background: #eee;
+        }
+        /* middlel */
+        .middlel{
+            width: 750px;
+            height: 1400px;
+            background: white;
+            padding: 40px;
+            box-sizing: border-box;
+            float: left;
+
+        }
+        .middlel_t{
+            height: 420px;
+            border-bottom: 1px dashed grey
+        }
+        .box{
+            width: 340px;
+            height: 300px;
+            position: relative;
+           overflow: hidden;
+        }
+        .picbox{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            overflow: hidden;
+        }
+        #pic{
+            width: 2200px;
+            height: 300px;
+            position: absolute;
+            left: 0;
+            top: 0
+        }
+        #pic li{
+            width: 340px;
+            height: 300px;
+            float: left;
+        }
+        .box ul:nth-child(2){
+            width: 400px;
+            height: 50px;
+            position: absolute;
+            left: 0;
+            bottom: 0
+        }
+        .box ul:nth-child(2) li{
+            width: 70px;
+            height: 50px;
+            float: left;
+            position: relative;
+        }
+        .box ul:nth-child(2) li div{
+             width: 70px;
+            height: 50px;
+            background: rgba(255,255,255,0.5);
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none;
+        }
+        .box img{
+            width: 100%;
+            height: 100%
+        }
+        .share a{
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+        }
+        .share a:nth-child(2){
+            background: url(../img/lytc/icon2.png)no-repeat center center;
+
+        }
+        .share a:nth-child(1){
+            background: url(../img/lytc/icon1.png)no-repeat center center;
+
+        }
+        .share a:nth-child(3){
+            background: url(../img/lytc/icon3.png)no-repeat center center;
+
+        }
+        .share a:nth-child(4){
+            background: url(../img/lytc/icon4.png)no-repeat center center;
+
+        }
+        .middlel_tl{
+            float: left;
+        }
+        .middlel_tl div:nth-child(2){
+            height: 55px;
+            line-height: 55px;
+            font-size: 12px;
+
+        }
+        .middlel_tl div:nth-child(3){
+            width: 170px;
+            height: 45px;
+            background: #77d0f9;
+            border-radius: 8px;
+            font-size: 15px;
+            color: white;
+            text-align: center;
+            line-height: 45px
+        }
+        .middlel_tr{
+            width: 300px;
+            height: 300px;
+            margin-left: 20px;
+           float: left;
+        }
+        .middlel_tr p:nth-child(1){
+            font-size: 20px;
+            color: #77d0f9;
+        }
+        .middlel_tr p:nth-child(2){
+            font-size: 15px;
+            color: #77d0f9;
+        }
+        .middlel_tr p:nth-child(3){
+            font-size: 12px;
+            color: #808080;
+            margin-top: 30px;
+            line-height: 25px;
+        }
+        .middlel>ul li{
+            margin-top: 40px;
+            height: 270px;
+            border-bottom: 1px dotted grey;
+            
+        }
+        .middlel>ul li:last-child{
+             border-bottom: 0;
+        }
+        .middlel>ul li p:nth-child(1){
+           font-size: 20px;
+            border-left: 4px solid #77d0f9;
+            width: 170px;
+            text-align: center;
+        }
+        .middlel>ul li p:nth-child(1) span{
+            font-size: 12px;
+            color: #ccc;
+
+        }
+        .middlel>ul li p:nth-child(2){
+         font-size: 12px;
+            color: #808080;
+            line-height: 25px;
+            margin-top: 30px
+        }
+        #lbtn a{
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            background: rgba(0,0,0,0.5);
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            display: none;
+
+        }
+        #rbtn a{
+            position: absolute;
+            right: 0;
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            background: rgba(0,0,0,0.5);
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            display: none;
+        }
+        .lb{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 20px;
+            height: 50px;
+            background: rgba(0,0,0,0.5);
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            text-align: center;
+        }
+        .lb::before{
+            content: '';
+            width: 0;
+            height: 0;
+            border:8px solid red;
+            border-color: transparent white transparent transparent ;
+            position: absolute;
+            left: 0;
+            top: 18px
+        }
+        .rb{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20px;
+            height: 50px;
+            background: rgba(0,0,0,0.5);
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            text-align: center;
+        }
+        .rb::before{
+            content: '';
+            width: 0;
+            height: 0;
+            border:8px solid red;
+            border-color: transparent transparent transparent white;
+            position: absolute;
+            right:0;
+            top: 18px
+        }
+        /*middler*/
+        .middler{
+            width: 255px;
+            float: left;
+            margin-left: 25px;
+            background: white;
+        }
+        .middler>div{
+            width: 100%;
+            height: 45px;
+            background: #77d0f9;
+           font-size: 15px;
+            color: white;
+            text-align: center;
+            line-height: 45px
+        }
+        .middler ul{
+            padding: 10px
+        }
+        .middler li{
+            width: 230px;
+            height: 210px;   
+        }
+        .middler li img{
+            width: 100%;
+            height: 150px
+        }
+        .middler li div{
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 15px;
+            border-bottom: 1px dotted grey
+        }

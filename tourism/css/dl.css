@@ -1,0 +1,138 @@
+.head-img{
+	height: 320px;
+	background: url("../img/messBg.jpg") no-repeat left -240px;
+	text-align: center;
+	z-index: -100;
+}
+.head-img-content{
+	padding-top: 40px;
+	color: #fff;
+}
+.head-img-content h1,
+.head-img-content p{
+	text-align: center;
+}
+.head-img-content h1{
+	padding-top: 80px;
+	font-size: 50px;
+}
+/*登录框*/
+.login-page{
+	background: #fff;
+	padding-top: 0.1px;
+}
+.login-box{
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 50px;
+}
+.login-box-un,.sign-in{
+	width: 580px;
+	/*height: 200px;*/
+	border-bottom: 1px solid #ccc;
+	margin: 10px auto;
+}
+.sign-in{
+	display: none;
+}
+.user,.password,.email{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	position: relative;
+}
+.power{
+	width: 300px;
+	height: 70px;
+	margin-left: 270px;
+}
+.power p{
+	padding: 5px 0;
+}
+.power meter{
+	width: 200px;
+	height: 10px;
+}
+.login-box-un span,.login-box-un input{
+	line-height: 40px;
+}
+.user input,.password input,.email input{
+	width: 300px;
+	height: 40px;
+	font-size: 16px;
+	outline: none;
+	background: #ddd;
+	border: none;
+	text-indent: 5px;
+	border-radius: 5px;
+}
+.login-box-un>div:nth-child(3){
+    text-align: right;
+}
+.login-box-un>div:nth-child(3) input{
+	width: 15px;
+	height: 15px;
+}
+.login-box-un>div:nth-child(3) span{
+	font-size: 12px;
+	color: #aaa;
+	margin-right: 70px;
+}
+.login-box>div:last-child,
+.login-box>div:last-child div{
+	padding: 10px;
+}
+.login-box>div:last-child>div:nth-child(1){
+	position: relative;
+}
+.login-box>div:last-child>div:nth-child(1) button{
+	width: 48px;
+	height: 30px;
+	border: none;
+	outline: none;
+	background: #000;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.zc{
+    background: #fff!important;
+	color: #aaa!important;
+	border: 1px solid #aaa!important;
+	margin-left: 15px!important;
+}
+.login-box>div:last-child>div:nth-child(1) span{
+	width: 160px;
+	height: 26px;
+	line-height: 26px;
+	color: #666;
+	font-size: 14px;
+	display: inline-block;
+	border: 1px solid #666;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	display: none;
+}
+.login-box>div:last-child>div:nth-child(2) span{
+	font-size: 12px;
+	color: #666;
+}
+.login-box>div:last-child>div:nth-child(3){
+	text-align: right;
+	font-size: 12px;
+	cursor: pointer;
+}
+.current{
+	background: deeppink;
+	color: #fff;
+	position: absolute;
+	left: 250px;
+	top: 67px;
+}
+

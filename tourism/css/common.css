@@ -1,0 +1,146 @@
+
+
+/*公共样式*/
+body{
+    background: url(../img/city.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-width: 1200px;
+    font-size: 14px;
+    
+}
+.width1200{
+    width: 1200px;
+}
+
+
+/*ͷ头部样式*/
+.header{
+    /*background: rgba(175,175,175,0.8);*/
+    position: absolute;
+    width: 100%;
+    min-width: 1200px;
+}
+.header a{
+    line-height: 120px;
+    color: white;
+    padding: 0 16px;
+    text-align: center;
+}
+.header .center>div{
+    height: 120px;
+}
+.header .logo{
+    position: relative;
+    width: 200px;
+}
+.header .logo>img{
+    position: absolute;
+    display: block;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+.header .nav{
+    height: 120px;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+.header .nav p{
+    margin-top: 38px;
+}
+.header .nav a{
+    display: inline-block;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    margin-right: 32px;
+    line-height: 54px;
+    padding: 0;
+    transition: all 0.5s;
+}
+.header .nav a:hover{
+    border-bottom: 2px solid rgba(220,220,220,0.5);
+}
+.header .nav .a_select{
+    border-bottom: 2px solid rgba(220,220,220,0.5);
+}
+/*ͷ头部样式结束*/
+
+/*banner*/
+
+/*banner结束*/
+
+
+
+/*尾部开始*/
+.footer{
+    background: #fff;
+    padding: 50px 0;
+    min-width: 1200px;
+}
+.footer a{
+    color: #aaa;
+}
+.footer .callme{
+    width: 200px;
+}
+.footer  .callme_title{
+    font-size: 18px;
+    font-weight: 800;
+}
+.footer .information{
+    width: 520px;
+}
+.footer  .whereto{
+    font-size: 16px;
+    line-height: 2.4em;
+}
+.footer .information>ul{
+    width: 45%;
+    line-height: 2em;
+    margin-right: 10px;
+}
+.footer .information a{
+    font-size: 14px;
+}
+
+.footer .contact_way span{
+    display:inline-block;
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    border-radius: 50%;
+    /*border: 1px solid #ccc;*/
+    background: url("../img/icon_login.png") no-repeat 0 -47px;
+}
+.footer .contact_way span:nth-of-type(2){
+    background-position-x: -51px;
+}
+.footer .contact_way span:nth-of-type(3){
+    background-position-x: -102px;
+}
+.footer .contact_way span:nth-of-type(4){
+    background-position-x: -153px;
+}
+
+/*尾部结束*/
+/*返回按钮*/
+.go_top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: url("../img/goback.png") no-repeat 8px 8px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+/*.go_top:hover{*/
+    /*box-shadow: 0 0 20px 4px #ebb556;*/
+/*}*/

@@ -1,0 +1,191 @@
+.content{
+	background: #fff;
+}
+.banner_content{
+	width: 100%;
+	position: relative;
+	z-index: -50;
+	font-size: 0;
+}
+.banner_content img{
+	width: 100%;
+}
+.pageTitle{
+	width: 260px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: #fff;
+}
+.pageTitle h2{
+	font-size: 36px;
+}
+.messageBoard{
+	padding-top: 40px;
+	width: 100%;
+	height: 800px;
+	border-top:1px solid #eee;
+	border-bottom: 1px solid #eee;
+	position: relative;
+	overflow: hidden;
+}
+.message_content{
+	position: absolute;
+	width: 1000px;
+	top: 0;
+	left:0;
+	right: 0;
+	margin:auto;
+}
+.messBox{
+	top: 800px;
+	position: absolute;
+	margin-top: 34px;
+	width:1000px;
+	height: 120px;
+	transition:all 2s ease-in-out;
+}
+.messConLeft{
+	float: left;
+	width: 80px;
+	height: 120px;
+}
+.messConLeftImg,.messConLeftMeImg{
+	width: 80px;
+	height: 80px;
+	float: left;
+	box-sizing: border-box;
+}
+.messConLeftImg img{
+	float: left;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border:3px solid #a5baff;
+	box-sizing: border-box;
+}
+.messConLeftMeImg img{
+	float: left;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border:3px solid red;
+	box-sizing: border-box;
+}
+.messConLeftName{
+	float: left;
+	width: 80px;
+	height: 40px;
+	line-height: 20px;
+	text-align: center;
+	padding: 7px 0 8px 0;
+	box-sizing: border-box;
+}
+.messConRight{
+	width: 880px;
+	float: left;
+	margin-left: 40px;
+}
+.messConRightText{
+	width: 800px;
+	height: 120px;
+	border:3px solid #a5baff;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background: #fff;
+	position: absolute;
+	padding: 20px;
+	line-height: 25px;
+}
+.messConRightMeText{
+	width: 800px;
+	height: 120px;
+	border:3px solid red;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background: #fff;
+	position: absolute;
+	padding: 20px;
+	line-height: 25px;
+}
+.messConRightMeText::after{
+	content: '';
+	position: absolute;
+	width: 10px;
+    height: 10px;
+    left: -20px;
+    top: 30px;
+	border-width: 0px 10px 13px 0px;
+    border-style: solid;
+    border-radius: 0px 0px 0px 20px;
+    border-color: transparent;
+    border-bottom-color: red;
+}
+.messConRightText::after{
+	content: '';
+	position: absolute;
+	width: 10px;
+    height: 10px;
+    left: -20px;
+    top: 30px;
+	border-width: 0px 10px 13px 0px;
+    border-style: solid;
+    border-radius: 0px 0px 0px 20px;
+    border-color: transparent;
+    border-bottom-color: #a5baff;
+}
+.messInput{
+	width: 100%;
+	height: 280px;
+	background: #f1f1f1;
+	padding:30px 0;
+}
+.inputBox{
+	width: 600px;
+	margin: 0 auto;
+}
+.inputBox input,.inputBox textarea{
+	display: block;
+	margin-bottom: 10px;
+}
+.inputBox input{
+	width: 600px;
+	height: 26px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 3px 10px;
+	box-sizing: border-box;
+}
+.inputBox input:focus{
+	border: 1px solid #a5baff;
+}
+.inputBox textarea{
+	width: 600px;
+	height: 85px;
+	line-height: 25px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	outline: none;
+	resize:none;
+	box-sizing: border-box;
+}
+.inputBox textarea:focus{
+	border: 1px solid #a5baff;
+}
+.inputBox .btn{
+	width: 600px;
+	height: 34px;
+	border: none;
+	outline: none;
+	background: #a5baff;
+	color: #fff;
+	cursor: pointer;
+}
+.inputBox .btn:hover{
+	background: #849ceb;
+}

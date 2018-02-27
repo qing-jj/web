@@ -1,0 +1,383 @@
+
+
+/* 头部导航 */
+.head-img{
+	height: 850px;
+	/*background: url(imgs/云南.jpg);*/
+	text-align: center;
+}
+.head-img-content{
+	padding-top: 200px;
+	color: #fff;
+}
+.head-img-content h1,
+.head-img-content p,
+.head-img-content button{
+	margin: 40px auto;
+}
+.head-img-content h1{
+	font-size: 50px;
+}
+.head-img-content p:nth-of-type(2){
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	color: #f7253d;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.head-img-content p:nth-of-type(2):hover{
+	background: #eee;
+}
+.head-img-content p:nth-of-type(3){
+	width: 50px;	
+	height: 50px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin-top: 150px;
+}
+.head-img-content p:nth-of-type(3) a{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: 10px solid #fff;
+	border-color: #fff transparent transparent transparent;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+/* 热门景点 */
+
+
+.hot-spot{
+	background: #F7F7F7;
+}
+.hot-spot>div{
+	width: 1030px;
+}
+.search-spot{
+	padding: 40px 0;
+}
+.search-spot span{
+	font-size: 25px;
+	color: #696969;
+	font-weight: bold;
+}
+.search-spot input{
+	width: 300px;
+	height: 34px;
+	outline: none;
+	font-size: 18px;
+	text-indent: 10px;
+	font-weight: 100;
+}
+.paris-spot{
+	width: 1030px;
+	text-align: center;
+}
+.paris-spot h1{
+	font-size: 25px;
+    padding-top: 100px;
+    color: #696969;
+}
+.paris-spot p{
+	color: #ccc;
+	padding: 20px 0;
+}
+.spot-choose{
+	padding: 20px;
+}
+.spot-choose a{
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #aaa;
+	text-align: center;
+	margin-left: 10px;
+	color: #aaa;
+	font-size: 14px;
+}
+.spot-choose a:hover{
+	border-color: #77d0f9;
+	color: #77d0f9;
+}
+a.on{
+	border-color: #77d0f9;
+	color: #77d0f9;
+}
+.spot-show{
+	/*height: 1060px;*/
+	margin-top: 20px;
+}
+.spot-show>div:not(:last-child){
+	float: left;
+}
+.spot-show li{
+	width: 320px;
+	height: 340px;
+	background: #fff;
+	float: left;
+	margin: 20px 10px;
+}
+.spot-show>div:not(:first-child){
+	display: none;
+}
+.spot-show li img{
+	width: 320px;
+	height: 250px;
+}
+.spot-show li p{
+	padding: 10px 0;
+	color: #666;
+}
+.spot-show li p:last-child{
+	color: #E04F96;
+	text-align: left;
+	text-indent: 20px;
+	padding: 5px 0;
+	line-height: 46px;
+}
+.all-spot span{
+    width: 32px;
+    height:32px ;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 4px;
+    background: url("../img/star.png") no-repeat center bottom;
+}
+.more-spot{
+	padding: 80px 0;
+}
+.more-spot a{
+	display: inline-block;
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+    background: #77d0f9;
+    border: 1px solid #77d0f9; 
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.more-spot a:hover{
+	background: #fff;
+	color: #77d0f9;
+}
+/*<!-- 愉快的旅程 -->*/
+.for-new{
+	background: transparent;
+	height: 400px;
+}
+.for-new h1{
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	padding-top: 170px;
+}
+.for-new p{
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	padding: 20px;
+}
+/*服务流程*/
+.serve-flow{
+	background: #fff;
+}
+.serve-flow-content{
+	width: 1200px;
+}
+.serve-flow-content h1,
+.serve-flow-content>p{
+	text-align: center;
+}
+.serve-flow-content h1{
+	font-size: 25px;
+	padding-top: 100px;
+	color: #696969;
+}
+.serve-flow-content>p{
+	padding-top: 10px;
+	color: #ccc;
+}
+.serve-flow-content>div{
+	padding-top: 100px;
+}
+
+.serve-flow-content li{
+	width: 300px;
+	height: 130px;
+	float: left;
+}
+.serve-flow-content li p:nth-child(1){
+	color: #696969;
+	font-size: 20px;
+	padding: 40px 0 10px 0;
+}
+.serve-flow-content li p:nth-child(2){
+	color: #ccc;
+	font-size: 14px;
+}
+.serve-flow-content li:last-child{
+	margin-bottom: 100px;
+}
+ /* 高端旅游 */
+ .high-end{
+ 	background: #E2E2E2;
+
+ }
+ .high-end-content{
+ 	width: 1200px;
+ }
+ .high-end h1,
+ .high-end>p{
+ 	text-align: center;
+ }
+ .high-end h1{
+ 	font-size: 25px;
+ 	padding-top: 100px;
+ 	color: #696969;
+ }
+ .high-end>p{
+ 	padding-top: 10px;
+ 	color: #aaa;
+ }
+ .high-end-content li{
+ 	width: 320px;
+ 	height: 340px;
+ 	background: #fff;
+ 	margin: 40px 38px 100px 38px;
+ 	float: left;
+ 	border-radius: 10px;
+ }
+ .high-end-content div:first-child{
+ 	height: 80px;
+ 	padding: 20px;
+ }
+ .high-end-content p{
+ 	text-align: center;
+ 	padding: 10px;
+ }
+ .high-end-content li p:nth-of-type(1){
+ 	font-size: 20px;
+ }
+ .high-end-content li p:nth-of-type(1) span:first-child{
+ 	color: #E04F67;
+ }
+ .high-end-content li p:nth-of-type(2){
+ 	width: 264px;
+ 	margin: 0 auto;
+ 	font-size: 12px;
+ 	color: #aaa;
+ }
+ .high-end-content li a{
+ 	display: inline-block;
+ 	width: 124px;
+ 	height: 30px;
+ 	line-height: 30px;
+ 	text-align: center;
+ 	border-radius: 5px;
+ 	color: #fff;
+ 	border: 1px solid #F58665;
+ }
+ .high-end-content li:nth-of-type(1) a{
+ 	background: #F58665;
+ }
+ .high-end-content li:nth-of-type(1) a:hover{
+	background: #fff;
+	color: #F58665;
+ }
+ .high-end-content li:nth-of-type(2) a{
+ 	background: #F58665;
+ }
+ .high-end-content li:nth-of-type(2) a:hover{
+	background: #fff;
+	color: #F58665;
+ }
+ .high-end-content li:nth-of-type(3) a{
+ 	background: #E04F67;
+ }
+  .high-end-content li:nth-of-type(3) a:hover{
+ 	background: #fff;
+ 	color: #E04F67;
+ }
+ .high-end-content li div:last-child{
+ 	text-align: center;
+ 	padding: 30px;
+ }
+ /*官网*/
+ .websites{
+ 	background: #F9F9F9;
+ }
+ .websites-content{
+ 	width: 1140px;
+ 	padding: 100px 0;
+ }
+ .websites-content>div{
+ 	float: left;
+ }
+ .websites-content>div:first-child img{
+ 	width: 500px;
+ 	height: 300px;
+ }
+ .websites-content>div:last-child{
+ 	width: 570px;
+ 	padding: 0 20px;
+ }
+ .websites-content>div:last-child h1{
+ 	color: #000;
+ 	font-size: 22px;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	padding: 30px;
+ 	letter-spacing: 1px;
+ }
+ .websites-content>div:last-child h1 span{
+ 	color: #E04F67;
+ }
+ .websites-content>div:last-child div{
+ 	width: 518px;
+ 	height: 128px;
+ 	margin: 0 auto;
+ }
+ .websites-content>div:last-child p{
+ 	color: #aaa;
+ 	font-size: 13px;
+ 	text-align: left;
+ 	padding: 10px 0;
+ }
+ .websites-content a{
+ 	display: inline-block;
+ 	width: 120px;
+ 	height: 35px;
+ 	line-height: 35px;
+ 	background: #F58665;
+ 	border-radius: 5px;
+ 	text-align: center;
+ 	color: #fff;
+ 	font-size: 12px;
+ 	margin-left: 25px;
+ 	border: 1px solid #F58665;
+ }
+ .websites-content a:hover{
+    background: #fff;
+    color: #F58665;
+ }
+ /*漂浮*/
+ .flow{
+ 	width: 50px;
+ 	height: 200px;
+ 	background: #ccc;
+ 	opacity: 0.8;
+ 	position: fixed;
+ 	top: 400px;
+ 	right: 0;
+ }
+ .flow div{
+ 	width: 50px;
+ 	height: 50px;
+ }
+
+

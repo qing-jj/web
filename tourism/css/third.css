@@ -1,0 +1,153 @@
+    .banner{
+            height: 400px;
+            min-width: 100%;
+            overflow: hidden;
+            background: rgba(0,0,0,0.5);
+           
+        }
+    .banner img{
+        display: none;
+        
+    }
+    .banner_t{
+        position: absolute;
+        left: 40%;
+        top: 20%;
+        color: white;
+        text-align: center;
+        line-height: 60px
+    }
+    .banner_t p:nth-child(1){
+        font-size: 40px
+    }
+        /*middle*/
+        .lytc-box{
+            background: #eee;
+            padding: 40px 0;
+        }
+        .container{
+           margin: 40px auto;
+            height: 1000px;
+        }
+        /*middlel*/
+        .middlel{
+            width: 770px;
+            padding: 40px;
+            background: white;
+            float: left;
+            box-sizing: border-box;
+         }
+        .mlt{
+            border-left: 4px solid #77d0f9;
+            width: 200px;
+            text-align: center;
+         }
+        .mlt h3{
+            font-size: 20px;
+        }
+        .mlt span{
+            color: #ccc;
+            font-size: 8px
+         }
+         .mlm li{
+            float: left;
+            width: 330px;
+            height: 270px;
+            border:1px solid #ccc;
+            box-shadow: 0 2px 4px #ccc;
+            margin-top: 25px;
+            position: relative;
+            cursor: pointer;
+         }
+         .mlm li:nth-child(even){
+            margin-left: 25px;
+         }
+         .mlm li img{
+            height: 220px;
+            width: 100%;
+         }
+         .mlm li div{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            font-size: 15px;
+            line-height: 50px;
+            text-align: center;
+         }
+        /*middler*/
+        .middler{
+            margin-left: 10px;
+            width: 240px;
+            float: left;
+        }
+        .middler li{
+            margin-top: 25px
+        }
+
+        .middler li:nth-child(1){
+            height: 260px;
+            margin-top: 0
+        }
+        .middler li:nth-child(2){
+            height: 45px;
+            background: #77d0f9;
+            border-radius: 8px;
+            color: white;
+            text-align: center;
+            line-height: 45px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .middler form{
+            height: 500px;
+            font-size: 15px;
+            color: #959595;
+        }
+        .middler form input{
+            height: 35px;
+            width: 240px
+        }
+        .middler span{
+            color: red;
+            margin-left: 5px
+        }
+        .middler select{
+            height: 35px;
+            width: 240px;
+           color: #959595
+        }
+        #btn{
+            width: 130px;
+            height: 35px;
+            background: #77d0f9;
+            color: white;
+            text-align: center;
+            outline: none;
+            border: none;
+            cursor: pointer;
+         }
+        #show{
+            width: 400px;
+            height: 300px;
+            background: rgba(0,0,0,0.7);
+            position: absolute;
+            left: 35%;
+            bottom: -500px;
+           display: none;
+           color: white;
+           text-align: center;
+           line-height: 300px;
+           font-size: 25px
+
+        }
+
+         /**/
+         .red{
+            width: 120px;
+            height: 20px;
+            background: #e04f67;
+            color: white;
+            text-align: center;
+            line-height: 20px
+         }

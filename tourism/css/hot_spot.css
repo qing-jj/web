@@ -1,0 +1,101 @@
+/*ÈÈÃÅ¾°µãÑùÊ½*/
+/*bannerÑùÊ½*/
+.banner .hot_spot {
+    height: 400px;
+    background: url("../img/hot_spot.png") no-repeat center center;
+    color:white;
+    text-align: center;
+}
+.banner .hot_spot:before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    opacity: 0;
+}
+.banner .hot_spot h2{
+    font-size: 42px;
+    line-height: 2em;
+    margin-top: 150px;
+}
+
+/*¾°µãÐÀÉÍÑùÊ½*/
+.hot{
+    background: #fff;
+    padding: 40px 0;
+}
+.content .hot_spot_list{
+    color: #666;
+    text-align: center;
+}
+.content .hot_spot_list ul{
+    margin: 50px 0;
+}
+
+.content .hot_spot_list>h2{
+    font-size: 24px;
+    line-height: 2em;
+    margin-top: 80px;
+}
+.content .hot_spot_list li{
+    width: 370px;
+    padding: 12px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    text-align: left;
+    line-height: 2em;
+    cursor: pointer;
+    position: relative;
+}
+.content .hot_spot_list .hot_spot_list_img{
+    width: 100%;
+    height: 300px;
+}
+
+.content .hot_spot_list li .hot_spot_item_title{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.content .hot_spot_list li .hot_spot_list_dis{
+    width: 100%;
+    height: 100%;
+    background: rgba(160,238,198,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 55;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: white;
+    display: none;
+}
+.content .hot_spot_list li:hover .hot_spot_list_dis{
+    display: block;
+}
+.content .hot_spot_list li .hot_spot_list_dis>p{
+    text-indent: 28px;
+}
+.content .hot_spot_list li .hot_spot_item_assess{
+    font-size: 14px;
+    height: 32px;
+
+}
+.content .hot_spot_list li .hot_spot_item_assess em{
+    line-height: 32px;
+    float: left;
+}
+.content .hot_spot_list li .hot_spot_item_assess span{
+    width: 32px;
+    height:32px ;
+    display:block ;
+    float: left;
+    margin-right: 4px;
+    background: url("../img/star.png") no-repeat center bottom;
+}
+.content .hot_spot_list li .hot_spot_item_assess span:hover{
+    background-position-y: top;
+}
